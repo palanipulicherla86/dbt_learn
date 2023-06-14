@@ -3,6 +3,14 @@
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
 name: 'my_new_project'
+sources:
+  -name: tpch
+  database: ANALYTICS
+  schema: dbt_learn_sf
+  tables:
+    - name: orders
+    - name: customer 
+
 version: '1.0.0'
 config-version: 2
 
